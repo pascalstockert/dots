@@ -2,6 +2,7 @@
 
 ## zsh
 alias ll="ls -lah"
+alias cc="clear"
 
 ## Git
 alias g="git"
@@ -36,6 +37,8 @@ alias serve:php='php -S 0.0.0.0:8080'
 alias serve:node='http-server .'
 alias serve:python='servethis'
 
+## SSH
+alias ssh:pasu-micro='ssh pasu@35.223.234.182'
 
 ### EXPORTS ###
 
