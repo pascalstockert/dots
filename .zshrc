@@ -37,6 +37,14 @@ alias gchb="git checkout -b"			# Create local branch
 alias gsw="git switch"				# Checkout remote branch
 alias gbrd="git branch --delete"		# Delete local branch
 
+## Git Stash
+alias gst="git stash push"		# Stash changes
+alias gstu="git stash push -u"		# Stash changes including untracked files
+alias gstm="git stash push -m"		# Stash changes with message 
+alias gstum="git stash push -u -m"	# Stash changes including untracked with message
+alias gstp="git stash pop"		# Pop latest stash entry from stash
+alias gstl="git stash list"		# List stash entries
+
 ## Dev Server
 alias servethis='python -m SimpleHTTPServer 8000'
 alias serve:php='php -S 0.0.0.0:8080'
