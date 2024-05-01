@@ -52,7 +52,10 @@ alias serve:node='http-server .'
 alias serve:python='servethis'
 
 ## SSH
-alias ssh:pasu-micro='ssh pasu@35.223.234.182'
+alias ssh:box='ssh root@116.203.55.231'
+
+## Restic
+alias restic:nya='restic -r rclone:nya:backups/box.pasu.me --password-file /root/.resticpwd'
 
 ### EXPORTS ###
 
