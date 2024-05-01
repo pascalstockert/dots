@@ -78,7 +78,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 ## Homebrew
-if [ ! -f /proc/sys/fs/binfmt_misc/WSLInterop ]; then
+if [[ $(uname) == "Darwin" ]]; then
 	eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
